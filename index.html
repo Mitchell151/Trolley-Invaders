@@ -78,10 +78,10 @@
 
         // Player
         const player = {
-            x: canvas.width / 2 - 25,
-            y: canvas.height - 60,
-            width: 50,
-            height: 30,
+            x: canvas.width / 2 - 75,
+            y: canvas.height - 120,
+            width: 150,
+            height: 90,
             speed: 5,
             color: '#00ff00'
         };
@@ -382,7 +382,7 @@
             scoreElement.textContent = score;
             livesElement.textContent = lives;
             
-            player.x = canvas.width / 2 - 25;
+            player.x = canvas.width / 2 - 75;
             bullets = [];
             alienBullets = [];
             createAliens();
